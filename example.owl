@@ -1,0 +1,348 @@
+
+
+
+<?xml version="1.0"?>
+<!DOCTYPE owl [
+     <!ENTITY rdf  "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+     <!ENTITY xsd  "http://www.w3.org/2001/XMLSchema#" >
+     <!ENTITY owl  "http://www.w3.org/2002/07/owl#" >
+     <!ENTITY example  "http://www.example.org/example#" >
+   ]>
+
+<rdf:RDF
+  xmlns     ="&example;"
+  xmlns:owl ="&owl;"
+  xml:base  ="http://www.example.org/example"
+  xmlns:rdf ="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:ex="&example;"
+  >
+
+ 
+ 
+<owl:Class rdf:ID="Man" />
+<owl:Class rdf:ID="Person" />
+<owl:Class rdf:ID="Woman" />
+<owl:Class rdf:ID="Manuscript" />
+<owl:Class rdf:ID="Writer" />
+<owl:Class rdf:ID="Paper" />
+<owl:Class rdf:ID="Book" />
+<owl:Class rdf:ID="XMLBook" />
+<owl:Class rdf:ID="Reviewed" />
+<owl:Class rdf:ID="Score" />
+<owl:Class rdf:ID="Topic" />
+<rdf:Property rdf:ID="author_of"/>
+<rdf:Property rdf:ID="topic_of"/>
+<rdf:Property rdf:ID="reviewed_by"/>
+<rdf:Property rdf:ID="rating"/>
+<rdf:Property rdf:ID="topic"/>
+<rdf:Property rdf:ID="writes"/>
+<rdf:Property rdf:ID="average_rating"/>
+<rdf:Property rdf:ID="authored_by"/>
+
+
+
+
+<rdf:Description rdf:about="#Man">
+  <rdfs:subClassOf rdf:resource="#Person" />
+</rdf:Description>
+
+<rdf:Description rdf:about="#Woman">
+  <rdfs:subClassOf rdf:resource="#Person" />
+</rdf:Description>
+
+
+
+
+
+<owl:Class ID="PaperBook">
+ 
+<owl:unionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="#Paper" />
+        <owl:Class rdf:about="#Book" />
+</owl:unionOf>
+ 
+</owl:Class>
+
+<owl:Class rdf:about="#PaperBook">
+  <rdfs:subClassOf rdf:resource="#Manuscript" />
+</owl:Class>
+ 
+
+
+
+
+<owl:Class ID="PersonauthorofManuscript">
+ 
+<owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="#Person" />
+        <owl:Restriction>
+      <owl:onProperty rdf:resource="#author_of" />
+      <owl:someValuesFrom rdf:resource="#Manuscript" />
+    </owl:Restriction>
+</owl:intersectionOf>
+ 
+</owl:Class>
+
+<owl:Class rdf:about="#PersonauthorofManuscript">
+  <rdfs:subClassOf rdf:resource="#Writer" />
+</owl:Class>
+ 
+
+
+
+
+<owl:Class ID="BooktopicXML">
+ 
+<owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="#Book" />
+        <owl:Restriction>
+      <owl:onProperty rdf:resource="#topic_of" />
+      <owl:hasValue rdf:resource="#XML" />
+    </owl:Restriction>
+</owl:intersectionOf>
+ 
+</owl:Class>
+
+<owl:Class rdf:about="#BooktopicXML">
+  <rdfs:subClassOf rdf:resource="#XMLBook" />
+</owl:Class>
+
+
+
+
+
+<owl:Class ID="ManuscriptreviewedbyPerson">
+ 
+<owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="#Manuscript" />
+        <owl:Restriction>
+      <owl:onProperty rdf:resource="#reviewed_by" />
+      <owl:someValuesFrom rdf:resource="#Person" />
+    </owl:Restriction>
+</owl:intersectionOf>
+ 
+</owl:Class>
+
+<owl:Class rdf:about="#ManuscriptreviewedbyPerson">
+  <rdfs:subClassOf rdf:resource="#Reviewed" />
+</owl:Class>
+
+
+
+
+
+<owl:Class rdf:about="#Manuscript">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="#rating"/>
+<owl:allValuesFrom rdf:resource="#Score"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>
+
+
+
+
+
+<owl:Class rdf:about="#Manuscript">
+<rdfs:subClassOf>
+<owl:Restriction>
+<owl:onProperty rdf:resource="#topic_of"/>
+<owl:allValuesFrom rdf:resource="#Topic"/>
+</owl:Restriction>
+</rdfs:subClassOf>
+</owl:Class>
+
+
+
+
+<rdf:Property rdf:about="#author_of">
+  <owl:equivalentProperty rdf:resource="#writes"/>
+</rdf:Property>
+
+
+
+<rdf:Property rdf:about="#average_rating">
+  <rdfs:subPropertyOf rdf:resource="#rating"/>
+</rdf:Property>
+
+
+
+<rdf:Property rdf:about="#authored_by">
+  <owl:inverseOf rdf:resource="#author_of"/>
+</rdf:Property>
+
+ 
+
+
+<owl:ObjectProperty rdf:about="#author_of">
+  <rdfs:domain rdf:resource="#Person" />
+  <rdfs:range  rdf:resource="#Manuscript" />
+</owl:ObjectProperty>
+
+
+
+
+<owl:ObjectProperty rdf:about="#reviewed_by">
+  <rdfs:domain rdf:resource="#Manuscript" />
+  <rdfs:range  rdf:resource="#Person" />
+</owl:ObjectProperty>
+
+
+
+ 
+<owl:Thing rdf:ID="Abiteboul" /> 
+<owl:Thing rdf:ID="Buneman" /> 
+<owl:Thing rdf:ID="Suciu" /> 
+<owl:Thing rdf:ID="Simeon" /> 
+<owl:Thing rdf:ID="DataontheWeb" /> 
+<owl:Thing rdf:ID="XMLinScottland" /> 
+<owl:Thing rdf:ID="GrowingXQuery" /> 
+<owl:Thing rdf:ID="Anonymous" /> 
+<owl:Thing rdf:ID="Almendros" /> 
+<owl:Thing rdf:ID="Good" /> 
+<owl:Thing rdf:ID="Excellent" /> 
+<owl:Thing rdf:ID="XML" /> 
+<owl:Thing rdf:ID="Web" />
+
+<owl:Thing rdf:about="#Abiteboul"> 
+   <rdf:type rdf:resource="#Man"/> 
+</owl:Thing>
+
+
+
+<owl:Thing rdf:about="#Buneman"> 
+   <rdf:type rdf:resource="#Man"/> 
+</owl:Thing>
+
+
+
+<owl:Thing rdf:about="#Suciu"> 
+   <rdf:type rdf:resource="#Man"/> 
+</owl:Thing>
+
+<owl:Thing rdf:about="#Simeon"> 
+   <rdf:type rdf:resource="#Man"/> 
+</owl:Thing>
+
+<owl:Thing rdf:about="#DataontheWeb"> 
+   <rdf:type rdf:resource="#Book"/> 
+</owl:Thing>
+
+
+
+<owl:Thing rdf:about="#XMLinScottland"> 
+   <rdf:type rdf:resource="#Book"/> 
+</owl:Thing>
+
+
+
+<owl:Thing rdf:about="#GrowingXQuery"> 
+   <rdf:type rdf:resource="#Paper"/> 
+</owl:Thing>
+
+
+
+<owl:Thing rdf:about="#Anonymous"> 
+   <rdf:type rdf:resource="#Person"/> 
+</owl:Thing>
+
+<owl:Thing rdf:about="#Almendros"> 
+   <rdf:type rdf:resource="#Person"/> 
+</owl:Thing>
+
+<owl:Thing rdf:about="#Abiteboul">
+  <author_of rdf:resource="#DataontheWeb" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#Suciu">
+  <author_of rdf:resource="#DataontheWeb" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#DataontheWeb">
+  <authored_by rdf:resource="#Buneman" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#Abiteboul">
+  <author_of rdf:resource="#XMLinScottland" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#Simeon">
+  <writes rdf:resource="#GrowingXQuery" />
+</owl:Thing>
+
+
+
+<owl:Thing rdf:about="#DataontheWeb">
+  <reviewed_by rdf:resource="#Anonymous" />
+</owl:Thing>  
+
+
+
+
+
+<owl:Thing rdf:about="#GrowingXQuery">
+  <reviewed_by rdf:resource="#Almendros" />
+</owl:Thing> 
+
+
+
+
+<owl:Thing rdf:about="#DataontheWeb">
+  <average_rating rdf:resource="#Good" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#XMLinScottland">
+  <rating rdf:resource="#Excellent" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#GrowingXQuery">
+  <average_rating rdf:resource="#Good" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#DataontheWeb">
+  <topic_of rdf:resource="#XML" />
+</owl:Thing> 
+
+
+
+<owl:Thing rdf:about="#DataontheWeb">
+  <topic_of rdf:resource="#Web" />
+</owl:Thing> 
+
+
+
+
+<owl:Thing rdf:about="#XMLinScottland">
+  <topic_of rdf:resource="#XML" />
+</owl:Thing> 
+
+<owl:SymmetricProperty rdf:ID="friendOf">
+  <rdfs:domain rdf:resource="#Person"/>
+  <rdfs:range  rdf:resource="#Person"/>
+</owl:SymmetricProperty>
+
+
+<owl:TransitiveProperty rdf:ID="sameManuscriptas">
+  <rdfs:domain rdf:resource="#Manuscript"/>
+  <rdfs:range  rdf:resource="#Manuscript"/>
+</owl:TransitiveProperty>
+
+</rdf:RDF>
+

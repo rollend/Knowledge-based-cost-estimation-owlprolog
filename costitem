@@ -1,0 +1,315 @@
+has_itemdescriptionlineitem_123456789ceramtic_tile
+has_itemdescriptionlineitem_123456789backsplash
+has_itemdescriptionlineitem_123456789thinset
+has_itemdescriptionlineitem_123456789average_grade_tiles
+has_pricelineitem_123456789recordedmaterialcost1
+has_pricelineitem_123456789recordedlabourcost1
+has_itemdescriptionlineitem_123456790ceramtic_tile
+has_itemdescriptionlineitem_123456790backsplash
+has_itemdescriptionlineitem_123456790thinset
+has_itemdescriptionlineitem_123456790custom_grade_tiles
+has_pricelineitem_123456790recordedmaterialcost2
+has_pricelineitem_123456790recordedlabourcost2
+has_itemdescriptionlineitem_123456791ceramtic_tile
+has_itemdescriptionlineitem_123456791backsplash
+has_itemdescriptionlineitem_123456791thinset
+has_itemdescriptionlineitem_123456791luxury_grade_tiles
+has_pricelineitem_123456791recordedmaterialcost3
+has_pricelineitem_123456791recordedlabourcost3
+has_itemdescriptionlineitem_123456792ceramtic_tile
+has_itemdescriptionlineitem_123456792backsplash
+has_itemdescriptionlineitem_123456792thinset
+has_itemdescriptionlineitem_123456792economy_grade_tiles
+has_pricelineitem_123456792recordedmaterialcost4
+has_pricelineitem_123456792recordedlabourcost4
+has_itemdescriptionlineitem_123456793ceramtic_tile
+has_itemdescriptionlineitem_123456793base
+has_itemdescriptionlineitem_123456793mud_set
+has_itemdescriptionlineitem_123456793'406mm high piece '
+has_itemdescriptionlineitem_123456793'250mm x 250mm '
+has_pricelineitem_123456793recordedmaterialcost5
+has_price(lineitem_123456793,recordedlabourcost5).
+has_itemdescription(lineitem_123456794,ceramtic_tile).
+has_itemdescription(lineitem_123456794,base).
+has_itemdescription(lineitem_123456794,thinset).
+has_itemdescription(lineitem_123456794,'406mm high piece ').
+has_itemdescription(lineitem_123456794,'250mm x 250mm ').
+has_price(lineitem_123456794,recordedmaterialcost6).
+has_price(lineitem_123456794,recordedlabourcost6).
+has_itemdescription(lineitem_123456797,ceramtic_tile).
+has_itemdescription(lineitem_123456797,cove_base).
+has_itemdescription(lineitem_123456797,mud_set).
+has_itemdescription(lineitem_123456797,'108mm x 108mm ').
+has_price(lineitem_123456797,recordedmaterialcost7).
+has_price(lineitem_123456797,recordedlabourcost7).
+has_itemdescription(lineitem_123456798,ceramtic_tile).
+has_itemdescription(lineitem_123456798,cove_base).
+has_itemdescription(lineitem_123456798,thinset).
+has_itemdescription(lineitem_123456798,'108mm x 108mm ').
+has_price(lineitem_123456798,recordedmaterialcost8).
+has_price(lineitem_123456798,recordedlabourcost8).
+has_itemdescription(lineitem_123456799,ceramtic_tile).
+has_itemdescription(lineitem_123456799,cove_base).
+has_itemdescription(lineitem_123456799,mud_set).
+has_itemdescription(lineitem_123456799,'152mm x 108mm h').
+has_price(lineitem_123456799,recordedmaterialcost9).
+has_price(lineitem_123456799,recordedlabourcost9).
+has_itemdescription(lineitem_123456800,ceramtic_tile).
+has_itemdescription(lineitem_123456800,cove_base).
+has_itemdescription(lineitem_123456800,thinset).
+has_itemdescription(lineitem_123456800,'152mm x 108mm h').
+has_price(lineitem_123456800,recordedmaterialcost10).
+has_price(lineitem_123456800,recordedlabourcost10).
+has_itemdescription(lineitem_123456801,ceramtic_tile).
+has_itemdescription(lineitem_123456801,sanitary_cove_base).
+has_itemdescription(lineitem_123456801,mud_set).
+has_itemdescription(lineitem_123456801,'152mm x 108mm h').
+has_price(lineitem_123456801,recordedmaterialcost11).
+has_price(lineitem_123456801,recordedlabourcost11).
+has_itemdescription(lineitem_123456802,ceramtic_tile).
+has_itemdescription(lineitem_123456802,sanitary_cove_base).
+has_itemdescription(lineitem_123456802,thinset).
+has_itemdescription(lineitem_123456802,'152mm x 108mm h').
+has_price(lineitem_123456802,recordedmaterialcost12).
+has_price(lineitem_123456802,recordedlabourcost12).
+has_itemdescription(lineitem_123456803,ceramtic_tile).
+has_itemdescription(lineitem_123456803,sanitary_cove_base).
+has_itemdescription(lineitem_123456803,mud_set).
+has_itemdescription(lineitem_123456803,'152mm x 152mm h').
+has_price(lineitem_123456803,recordedmaterialcost13).
+has_price(lineitem_123456803,recordedlabourcost13).
+has_itemdescription(lineitem_123456804,ceramtic_tile).
+has_itemdescription(lineitem_123456804,sanitary_cove_base).
+has_itemdescription(lineitem_123456804,thinset).
+has_itemdescription(lineitem_123456804,'152mm x 152mm h').
+has_price(lineitem_123456804,recordedmaterialcost14).
+has_price(lineitem_123456804,recordedlabourcost14).
+has_itemdescription(lineitem_123456805,ceramtic_tile).
+has_itemdescription(lineitem_123456805,bathroom).
+has_itemdescription(lineitem_123456805,accessories).
+has_itemdescription(lineitem_123456805,average).
+has_price(lineitem_123456805,recordedmaterialcost15).
+has_price(lineitem_123456805,recordedlabourcost15).
+has_itemdescription(lineitem_123456806,ceramtic_tile).
+has_itemdescription(lineitem_123456806,bathtub).
+has_itemdescription(lineitem_123456806,adhesive_set).
+has_itemdescription(lineitem_123456806,'127mm w x 152mm h').
+has_itemdescription(lineitem_123456806,'108mm x 108mm tile wainscot').
+has_price(lineitem_123456806,recordedmaterialcost16).
+has_price(lineitem_123456806,recordedlabourcost16).
+has_itemdescription(lineitem_123456807,ceramtic_tile).
+has_itemdescription(lineitem_123456807,bathtub).
+has_itemdescription(lineitem_123456807,adhesive_set).
+has_itemdescription(lineitem_123456807,'127mm w x 178mm h').
+has_itemdescription(lineitem_123456807,'108mm x 108mm tile wainscot').
+has_price(lineitem_123456807,recordedmaterialcost17).
+has_price(lineitem_123456807,recordedlabourcost17).
+has_itemdescription(lineitem_123456808,ceramtic_tile).
+has_itemdescription(lineitem_123456808,bathtub).
+has_itemdescription(lineitem_123456808,adhesive_set).
+has_itemdescription(lineitem_123456808,'127mm w x 203mm h').
+has_itemdescription(lineitem_123456808,'108mm x 108mm tile wainscot').
+has_price(lineitem_123456808,recordedmaterialcost18).
+has_price(lineitem_123456808,recordedlabourcost18).
+has_itemdescription(lineitem_123456809,ceramtic_tile).
+has_itemdescription(lineitem_123456809,bullnose_trim).
+has_itemdescription(lineitem_123456809,mud_set).
+has_itemdescription(lineitem_123456809,'108mm x 108mm ').
+has_price(lineitem_123456809,recordedmaterialcost19).
+has_price(lineitem_123456809,recordedlabourcost19).
+has_itemdescription(lineitem_123456810,ceramtic_tile).
+has_itemdescription(lineitem_123456810,bullnose_trim).
+has_itemdescription(lineitem_123456810,thinset).
+has_itemdescription(lineitem_123456810,'108mm x 108mm ').
+has_price(lineitem_123456810,recordedmaterialcost20).
+has_price(lineitem_123456810,recordedlabourcost20).
+has_itemdescription(lineitem_123456811,ceramtic_tile).
+has_itemdescription(lineitem_123456811,bullnose_trim).
+has_itemdescription(lineitem_123456811,mud_set).
+has_itemdescription(lineitem_123456811,'152mm x 108mm h').
+has_price(lineitem_123456811,recordedmaterialcost21).
+has_price(lineitem_123456811,recordedlabourcost121).
+has_itemdescription(lineitem_123456812,ceramtic_tile).
+has_itemdescription(lineitem_123456812,bullnose_trim).
+has_itemdescription(lineitem_123456812,thinset).
+has_itemdescription(lineitem_123456812,'152mm x 108mm h').
+has_price(lineitem_123456812,recordedmaterialcost22).
+has_price(lineitem_123456812,recordedlabourcost22).
+has_itemdescription(lineitem_123456837,ceramtic_tile).
+has_itemdescription(lineitem_123456837,interior_wall).
+has_itemdescription(lineitem_123456837,thinset).
+has_itemdescription(lineitem_123456837,'108mm x 108mm ').
+has_price(lineitem_123456837,recordedmaterialcost23).
+has_price(lineitem_123456837,recordedlabourcost23).
+has_itemdescription(lineitem_123456838,ceramtic_tile).
+has_itemdescription(lineitem_123456838,interior_wall).
+has_itemdescription(lineitem_123456838,thinset).
+has_itemdescription(lineitem_123456838,'152mm x 108mm h').
+has_price(lineitem_123456838,recordedmaterialcost24).
+has_price(lineitem_123456838,recordedlabourcost24).
+has_itemdescription(lineitem_123456839,ceramtic_tile).
+has_itemdescription(lineitem_123456839,interior_wall).
+has_itemdescription(lineitem_123456839,thinset).
+has_itemdescription(lineitem_123456839,'216mm x 108mm"').
+has_price(lineitem_123456839,recordedmaterialcost25).
+has_price(lineitem_123456839,recordedlabourcost25).
+has_itemdescription(lineitem_123456840,ceramtic_tile).
+has_itemdescription(lineitem_123456840,interior_wall).
+has_itemdescription(lineitem_123456840,thinset).
+has_itemdescription(lineitem_123456840,'152mm x 152mm').
+has_price(lineitem_123456840,recordedmaterialcost26).
+has_price(lineitem_123456840,recordedlabourcost26).
+has_itemdescription(lineitem_123456841,ceramtic_tile).
+has_itemdescription(lineitem_123456841,interior_wall).
+has_itemdescription(lineitem_123456841,thinset).
+has_itemdescription(lineitem_123456841,'203mm x 203mm').
+has_price(lineitem_123456841,recordedmaterialcost27).
+has_price(lineitem_123456841,recordedlabourcost27).
+has_itemdescription(lineitem_123456842,ceramtic_tile).
+has_itemdescription(lineitem_123456842,interior_wall).
+has_itemdescription(lineitem_123456842,thinset).
+has_itemdescription(lineitem_123456842,'305mm x 305mm').
+has_price(lineitem_123456842,recordedmaterialcost28).
+has_price(lineitem_123456842,recordedlabourcost28).
+has_itemdescription(lineitem_123456846,ceramtic_tile).
+has_itemdescription(lineitem_123456846,exterior_wall).
+has_itemdescription(lineitem_123456846,frostproof).
+has_itemdescription(lineitem_123456846,mud_set).
+has_itemdescription(lineitem_123456846,'108mm x 108mm ').
+has_price(lineitem_123456846,recordedmaterialcost29).
+has_price(lineitem_123456846,recordedlabourcost29).
+has_itemdescription(lineitem_123456847,ceramtic_tile).
+has_itemdescription(lineitem_123456847,exterior walls).
+has_itemdescription(lineitem_123456847,frostproof).
+has_itemdescription(lineitem_123456847,mud_set).
+has_itemdescription(lineitem_123456847,'35mm x 35mm').
+has_price(lineitem_123456847,recordedmaterialcost30).
+has_price(lineitem_123456847,recordedlabourcost30).
+has_itemdescription(lineitem_123456919,face_brick).
+has_itemdescription(lineitem_123456919,wall).
+has_itemdescription(lineitem_123456919,mortar).
+has_itemdescription(lineitem_123456919,'102mm thick wall').
+has_itemdescription(lineitem_123456919,'includes 3% brick waste and 25% mortar waste').
+has_itemdescription(lineitem_123456919,'excludes scaffolding, horizontal reinforcing, vertical reinforcing and grout').
+has_price(lineitem_123456919,recordedmaterialcost31).
+has_price(lineitem_123456919,recordedlabourcost31).
+has_itemdescription(lineitem_123456920,common_brick).
+has_itemdescription(lineitem_123456920,wall).
+has_itemdescription(lineitem_123456920,mortar).
+has_itemdescription(lineitem_123456920,'102mm thick wall').
+has_itemdescription(lineitem_123456920,'includes 3% brick waste and 25% mortar waste').
+has_itemdescription(lineitem_123456920,'excludes scaffolding, horizontal reinforcing, vertical reinforcing and grout').
+has_price(lineitem_123456920,recordedmaterialcost32).
+has_price(lineitem_123456920,recordedlabourcost32).
+has_itemdescription(lineitem_123456921,common_brick).
+has_itemdescription(lineitem_123456921,wall).
+has_itemdescription(lineitem_123456921,mortar).
+has_itemdescription(lineitem_123456921,'203mm thick wall').
+has_itemdescription(lineitem_123456921,'includes 3% brick waste and 25% mortar waste').
+has_itemdescription(lineitem_123456921,'excludes scaffolding, horizontal reinforcing, vertical reinforcing and grout').
+has_price(lineitem_123456921,recordedmaterialcost33).
+has_price(lineitem_123456921,recordedlabourcost33).
+has_itemdescription(lineitem_123456922,common_brick).
+has_itemdescription(lineitem_123456922,wall).
+has_itemdescription(lineitem_123456922,mortar).
+has_itemdescription(lineitem_123456922,'305mm thick wall').
+has_itemdescription(lineitem_123456922,'includes 3% brick waste and 25% mortar waste').
+has_itemdescription(lineitem_123456922,'excludes scaffolding, horizontal reinforcing, vertical reinforcing and grout').
+has_price(lineitem_123456922,recordedmaterialcost34).
+has_price(lineitem_123456922,recordedlabourcost34).
+has_itemdescription(lineitem_123456923,common_brick).
+has_itemdescription(lineitem_123456923,wall).
+has_itemdescription(lineitem_123456923,mortar).
+has_itemdescription(lineitem_123456923,'406mm thick wall').
+has_itemdescription(lineitem_123456923,'includes 3% brick waste and 25% mortar waste').
+has_itemdescription(lineitem_123456923,'excludes scaffolding, horizontal reinforcing, vertical reinforcing and grout').
+has_price(lineitem_123456923,recordedmaterialcost35).
+has_price(lineitem_123456923,recordedlabourcost35).
+has_itemdescription(lineitem_123456924,face_brick).
+has_itemdescription(lineitem_123456924,wall).
+has_itemdescription(lineitem_123456924,mortar).
+has_itemdescription(lineitem_123456924,'102mm thick wall').
+has_itemdescription(lineitem_123456924,'includes 3% brick waste and 25% mortar waste, , vertical reinforcing and grout').
+has_itemdescription(lineitem_123456924,'excludes scaffolding, horizontal reinforcing').
+has_price(lineitem_123456924,recordedmaterialcost36).
+has_price(lineitem_123456924,recordedlabourcost36).
+has_itemdescription(lineitem_123456925,common_brick).
+has_itemdescription(lineitem_123456925,wall).
+has_itemdescription(lineitem_123456925,mortar).
+has_itemdescription(lineitem_123456925,'102mm thick wall').
+has_itemdescription(lineitem_123456925,'includes 3% brick waste and 25% mortar waste, , vertical reinforcing and grout').
+has_itemdescription(lineitem_123456925,'excludes scaffolding, horizontal reinforcing').
+has_price(lineitem_123456925,recordedmaterialcost37).
+has_price(lineitem_123456925,recordedlabourcost37).
+has_itemdescription(lineitem_123456926,common_brick).
+has_itemdescription(lineitem_123456926,wall).
+has_itemdescription(lineitem_123456926,mortar).
+has_itemdescription(lineitem_123456926,'203mm thick wall').
+has_itemdescription(lineitem_123456926,'includes 3% brick waste and 25% mortar waste, , vertical reinforcing and grout').
+has_itemdescription(lineitem_123456926,'excludes scaffolding, horizontal reinforcing').
+has_price(lineitem_123456926,recordedmaterialcost38).
+has_price(lineitem_123456926,recordedlabourcost38).
+has_itemdescription(lineitem_123456927,common_brick).
+has_itemdescription(lineitem_123456927,wall).
+has_itemdescription(lineitem_123456927,mortar).
+has_itemdescription(lineitem_123456927,'305mm thick wall').
+has_itemdescription(lineitem_123456927,'includes 3% brick waste and 25% mortar waste, , vertical reinforcing and grout').
+has_itemdescription(lineitem_123456927,'excludes scaffolding, horizontal reinforcing').
+has_price(lineitem_123456927,recordedmaterialcost39).
+has_price(lineitem_123456927,recordedlabourcost39).
+has_itemdescription(lineitem_123456928,common_brick).
+has_itemdescription(lineitem_123456928,wall).
+has_itemdescription(lineitem_123456928,mortar).
+has_itemdescription(lineitem_123456928,'406mm thick wall').
+has_itemdescription(lineitem_123456928,'includes 3% brick waste and 25% mortar waste, , vertical reinforcing and grout').
+has_itemdescription(lineitem_123456928,'excludes scaffolding, horizontal reinforcing').
+has_price(lineitem_123456928,recordedmaterialcost40).
+has_price(lineitem_123456928,recordedlabourcost40).
+has_itemdescription(lineitem_123456930,adobe_brick).
+has_itemdescription(lineitem_123456930,semi-stabilized).
+has_itemdescription(lineitem_123456930,'254mm x 102mm x 356mm"').
+has_itemdescription(lineitem_123456930,cement_mortar).
+has_price(lineitem_123456930,recordedmaterialcost41).
+has_price(lineitem_123456930,recordedlabourcost41).
+has_itemdescription(lineitem_123456931,adobe_brick).
+has_itemdescription(lineitem_123456931,semi-stabilized).
+has_itemdescription(lineitem_123456931,'305mm x 102mm x 406mm"').
+has_itemdescription(lineitem_123456931,cement_mortar).
+has_price(lineitem_123456931,recordedmaterialcost42).
+has_price(lineitem_123456931,recordedlabourcost42).
+has_itemdescription(lineitem_123456932,adobe_brick).
+has_itemdescription(lineitem_123456932,semi-stabilized).
+has_itemdescription(lineitem_123456932,'254mm x 102mm x 406mm"').
+has_itemdescription(lineitem_123456932,cement_mortar).
+has_price(lineitem_123456932,recordedmaterialcost43).
+has_price(lineitem_123456932,recordedlabourcost43).
+has_itemdescription(lineitem_123456933,adobe_brick).
+has_itemdescription(lineitem_123456933,semi-stabilized).
+has_itemdescription(lineitem_123456933,'203mm x 102mm x 406mm"').
+has_itemdescription(lineitem_123456933,cement_mortar).
+has_price(lineitem_123456933,recordedmaterialcost44).
+has_price(lineitem_123456933,recordedlabourcost44).
+has_itemdescription(lineitem_123456934,adobe_brick).
+has_itemdescription(lineitem_123456934,semi-stabilized).
+has_itemdescription(lineitem_123456934,'102mm x 102mm x 406mm"').
+has_itemdescription(lineitem_123456934,cement_mortar).
+has_price(lineitem_123456934,recordedmaterialcost45).
+has_price(lineitem_123456934,recordedlabourcost45).
+has_itemdescription(lineitem_123456935,adobe_brick).
+has_itemdescription(lineitem_123456935,semi-stabilized).
+has_itemdescription(lineitem_123456935,'152mm x 102mm x 406mm"').
+has_itemdescription(lineitem_123456935,cement_mortar).
+has_price(lineitem_123456935,recordedmaterialcost46).
+has_price(lineitem_123456935,recordedlabourcost46).
+has_itemdescription(lineitem_123456936,adobe_brick).
+has_itemdescription(lineitem_123456936,semi-stabilized).
+has_itemdescription(lineitem_123456936,'102mm x 102mm x 305mm"').
+has_itemdescription(lineitem_123456936,cement_mortar).
+has_price(lineitem_123456936,recordedmaterialcost47).
+has_price(lineitem_123456936,recordedlabourcost47).
+has_itemdescription(lineitem_123456937,adobe_brick).
+has_itemdescription(lineitem_123456937,semi-stabilized).
+has_itemdescription(lineitem_123456937,'203mm x 102mm x 305mm"').
+has_itemdescription(lineitem_123456937,cement_mortar).
+has_price(lineitem_123456937,recordedmaterialcost48).
+has_price(lineitem_123456937,recordedlabourcost48).

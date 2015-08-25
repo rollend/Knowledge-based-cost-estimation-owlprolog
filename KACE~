@@ -1,0 +1,82 @@
+is_a(wall,buildingelement).
+wall(ifcwall_15478).
+
+
+design_material(brick1).
+material(ceramic_tile).
+
+
+
+
+has_constructionworkresult(ifcwall_15478,brick1).
+
+has_property(brick1, 240*240).
+has_property(brick1, M10 cement mortar).
+has_property(brick1, MU10 standard solid brick).
+
+
+has_opening(ifcwall_15478,door1).
+has_opening(ifcwall_15478,window1).
+
+
+
+
+has_covering(ifcwall_15478,finishes1).
+
+
+
+has_quantity(ifcwall_15478,ifcquantityarea_33501).
+has_quantity(ifcwall_15478,ifcquantitylength_33505).
+has_quantity(ifcwall_15478,ifcquantitylength_33506).
+has_quantity(ifcwall_15478,ifcquantitylength_33507).
+
+
+
+area(ifcquantityarea_33501).
+height(ifcquantitylength_33505).
+length(ifcquantitylength_33506).
+width(ifcquantitylength_33507).
+
+
+
+has_value(ifcquantitylength_33506,5).
+has_value(ifcquantitylength_33505,3.5).
+has_value(ifcquantityarea_33501,17.5).
+has_value(ifcquantitylength_33507,0.5).
+
+
+
+has_unit(ifcquantitylength_33507,meter).
+has_unit(ifcquantitylength_33506,meter).
+has_unit(ifcquantityarea_33501, square_meter).
+has_unit(ifcquantitylength_33505,meter).
+
+:- dynamic costitem/1.
+
+decompose(Buildingelements) :-
+	write('Construction Product:'),
+	is_a(X,Buildingelements),wall(X),
+	has_constructionworkresult(Buildingelements,Y), has_property(Y,Z),
+	write(Z),
+	fail.
+decompose(_).
+
+select(Buildingelement) :-
+	write('Measured Unit:'),
+	has_quantity(Buildingelement,Y), width(Y),
+	has_value(Y,Z),
+	C is Z*1000,
+	C >500,
+	units(area,A),
+	write(A),
+	fail.
+
+select(Buildingelements) :-
+	has_quantity(Buildingelements,Y), width(Y),
+	has_value(Y,Z),
+	C is Z*1000,
+	C =<500,
+	write(meter),
+	fail.
+select(_).
+

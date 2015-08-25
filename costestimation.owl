@@ -1,0 +1,1049 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#RelatingPropertyDefinition -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#RelatingPropertyDefinition">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelDefinesByProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElementQuantity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#actionRel -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#actionRel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#has_setof -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#has_setof">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityArea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityCount"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityLength"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityTime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityVolume"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityWeight"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElementQuantity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#inverse_Controls -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#inverse_Controls">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssignsToControl"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcCostItem"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#inverse_isDefinedBy -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#inverse_isDefinedBy">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCurtainWall"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcFooting"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPile"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelDefinesByProperties"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRoof"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcSlab"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcStair"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBeam"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcCovering"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcDoor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWall"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWindow"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#inversed_hasAssignments -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#inversed_hasAssignments">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCurtainWall"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcFooting"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPile"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssignsToControl"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRoof"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcSlab"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcStair"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBeam"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcCovering"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcDoor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWall"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWindow"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#isissuedby -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#isissuedby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#NRM"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#RICS"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#actionRel"/>
+        <inverseOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#issues"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#issues -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#issues">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#NRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#RICS"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#actionRel"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#buildingcomponent_propertyset -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#buildingcomponent_propertyset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#curved -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#curved">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#buildingcomponent_propertyset"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wall"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#fire_rating -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#fire_rating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#buildingcomponent_propertyset"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wall"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#height -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#height">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#buildingcomponent_propertyset"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#column"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wall"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#length -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#length">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#buildingcomponent_propertyset"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#column"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wall"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#thickness -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#thickness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#buildingcomponent_propertyset"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#column"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wall"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#AACE -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#AACE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Institution"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Adjust -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Adjust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Estimate"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Apply -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Apply">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Calculate"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Assumptions -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Assumptions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostReport"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#BOQ -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#BOQ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostReport"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#BuildingSection -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#BuildingSection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#BOQ"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CECN -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CECN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Institution"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Calculate -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Calculate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Quantification"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Capture -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Capture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Review"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Clarify -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Clarify">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Prepare"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Commercialized -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Commercialized">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Database"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CompanyOwned -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CompanyOwned">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Database"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Compare -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Compare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Search"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ComponentsFeatures -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ComponentsFeatures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Features"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ConstructionProject -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ConstructionProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostItem -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostItem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#BuildingSection"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostReport -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostReport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Database -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Database">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Decompose -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Decompose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Prepare"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Determine -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Determine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Calculate"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Estimate -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Estimate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Pricing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Features -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Features">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ConstructionProject"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Form -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Estimate"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#GB50500 -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#GB50500">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Standard"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IFC -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IFC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Identify -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Identify">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Search"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcAppliedValue -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcAppliedValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCostResource"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCostResource -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCostResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IFC"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCostValue -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCostValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcAppliedValue"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCurtainWall -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCurtainWall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcFooting -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcFooting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalQuantity -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IFC"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalQuantity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPile -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityArea -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityCount -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityCount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityLength -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityLength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityTime -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityVolume -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityVolume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityWeight -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcQuantityWeight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcPhysicalSimpleQuantity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssigns -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssigns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRelationship"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssignsToActor -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssignsToActor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssigns"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssignsToControl -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssignsToControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelAssigns"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelDefines -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelDefines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRelationship"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelDefinesByProperties -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelDefinesByProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRelDefines"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcResourceCost -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcResourceCost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcCostResource"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRoof -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcRoof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcSlab -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcSlab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcStair -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IfcStair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Institution -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Institution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IntersectionFeatures -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IntersectionFeatures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Features"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Justify -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Justify">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Review"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#MacroFeatures -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#MacroFeatures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Features"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Measure -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Measure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Calculate"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#MeasurementRules -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#MeasurementRules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#NRM"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#NRM -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#NRM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Standard"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Prepare -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Prepare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Quantification"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Pricing -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Pricing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveying"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ProjectTeam -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ProjectTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QSOrg"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QS -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ProjectTeam"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QSManager -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QSManager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ProjectTeam"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QSOrg -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QSOrg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveyor"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Quantification -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Quantification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveying"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveying -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveyor -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveyor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#R.S._Mean -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#R.S._Mean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Commercialized"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#RICS -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#RICS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Institution"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Review -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Review">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#QuantitySurveying"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#SMM7 -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#SMM7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Standard"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Search -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Search">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Pricing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Standard -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Standard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#CostEstimation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Synthesis -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Synthesis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Prepare"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Update -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Update">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#Review"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#column -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#column">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ComponentsFeatures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#component_similarity -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#component_similarity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#MacroFeatures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#opening -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#opening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IntersectionFeatures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#turn -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#turn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IntersectionFeatures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wall -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#ComponentsFeatures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wallbeam_intersection -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#wallbeam_intersection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IntersectionFeatures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBeam -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcControl -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObject"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcCostItem -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcCostItem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcControl"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcCovering -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcCovering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcDoor -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcDoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElement -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcProduct"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElementQuantity -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElementQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcQuantitySet"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcFeatureElement -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcFeatureElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcFeatureElementSubtraction -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcFeatureElementSubtraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcFeatureElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcMaterial -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcMaterialDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcMaterialDefinition -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcMaterialDefinition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IFC"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObject -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObjectDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObjectDefinition -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObjectDefinition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRoot"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcOpeningElement -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcOpeningElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcFeatureElementSubtraction"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcProcess -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObject"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcProduct -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcObject"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcPropertyDefinition -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcPropertyDefinition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRoot"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcPropertySetDefinition -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcPropertySetDefinition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcPropertyDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcQuantitySet -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcQuantitySet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcPropertySetDefinition"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRelationship -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRelationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRoot"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRoot -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcRoot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-12#IFC"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcTask -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcTask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcProcess"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWall -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWindow -->
+
+    <Class rdf:about="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcWindow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanrollend/ontologies/2014/4/untitled-ontology-8#IfcBuildingElement"/>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
